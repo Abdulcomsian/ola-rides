@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="css/media.css">
 </head>
 
-<body style="padding-bottom: 200px;">
+<body>
 
     <div class="header_section">
         <div class="navbars">
@@ -106,7 +106,7 @@
 
     <div class="section_1">
         <div class="container">
-            <div class="inner_content">
+            <div class="inner_content mx-auto">
                 <ul class="nav nav-tabs" id="myTab" role="tablist">
                     <li class="nav-item" role="presentation">
                         <button class="nav-link active d-flex align-items-center" id="home-tab" data-bs-toggle="tab"
@@ -175,7 +175,7 @@
                                 </div>
                                 <div class="col-lg-3 col-md-6">
                                     <div class="box d-flex align-items-center justify-content-between border-0">
-                                        <img src="img/map1.png" class="car_icon" alt="map">
+                                        <img src="img/user_icon.png" class="car_icon" alt="user">
                                         <div class="txt w-100">
                                             <div class="from mb-2 d-flex justify-content-between align-items-center">
                                                 <h4>Passengers</h4>
@@ -184,16 +184,90 @@
                                                 <h5>1 Person</h5>
                                             </div>
                                         </div>
-                                        <a href="#">
+                                        <!-- <a href="#">
                                             <img src="img/search_btn.png" alt="search_btn" width="65">
-                                        </a>
+                                        </a> -->
+                                        <a href="#" class="search_btn"><i class="fas fa-search"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                     </div>
-                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                    <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+
+                        <div class="sch_flight">
+                            <div class="row">
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="box d-flex align-items-center">
+                                        <img src="img/map1.png" class="car_icon" alt="map">
+                                        <div class="txt w-100">
+                                            <div class="from mb-2 d-flex justify-content-between align-items-center">
+                                                <h4>From</h4><img src="img/check_icon.png" alt="icon"
+                                                    class="tekCrossIcon">
+                                            </div>
+                                            <div class="from d-flex justify-content-between align-items-center">
+                                                <h5>London Luton Airport (LTN)</h5><img src="img/cross_icon.png"
+                                                    alt="icon" class="tekCrossIcon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="box d-flex align-items-center">
+                                        <img src="img/map1.png" class="car_icon" alt="map">
+                                        <div class="txt w-100">
+                                            <div class="from mb-2 d-flex justify-content-between align-items-center">
+                                                <h4>From</h4><img src="img/check_icon.png" alt="icon"
+                                                    class="tekCrossIcon">
+                                            </div>
+                                            <div class="from d-flex justify-content-between align-items-center">
+                                                <h5>London Luton Airport (LTN)</h5><img src="img/cross_icon.png"
+                                                    alt="icon" class="tekCrossIcon">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="box d-flex justify-content-between align-items-center">
+                                        <div class="txt">
+                                            <div class="from d-flex justify-content-between align-items-center">
+                                                <h4>Dates - Time</h4>
+                                            </div>
+                                            <div class="from d-flex justify-content-between align-items-center">
+                                                <div class="date d-flex align-items-center">
+                                                    <h2 class="m-0">23</h2>
+                                                    <div class="ms-2">
+                                                        <span class="mon">September</span>
+                                                        <p class="m-0 day">Wed, 13:00</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <a href="#" class="btn btn_outline">Add Return</a>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-md-6">
+                                    <div class="box d-flex align-items-center justify-content-between border-0">
+                                        <img src="img/user_icon.png" class="car_icon" alt="user">
+                                        <div class="txt w-100">
+                                            <div class="from mb-2 d-flex justify-content-between align-items-center">
+                                                <h4>Passengers</h4>
+                                            </div>
+                                            <div class="from d-flex justify-content-between align-items-center">
+                                                <h5>1 Person</h5>
+                                            </div>
+                                        </div>
+                                        <!-- <a href="#">
+                                            <img src="img/search_btn.png" alt="search_btn" width="65">
+                                        </a> -->
+                                        <a href="#" class="search_btn"><i class="fas fa-search"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>
@@ -297,8 +371,17 @@
                             <h2>Lorem ipsum</h2>
                             <p>Request quotes and read previous customer feedback to pick the right delivery quote for
                                 you.</p>
-                            <div class="slider_nums mt-5">
-                                <img src="img/slider_num.png" alt="slider" width="170">
+                            <div class="d-flex justify-content-between align-items-center mt-5">
+                                <div class="slider_nums">
+                                    <a href="#">
+                                        <img src="img/slider_num.png" alt="slider" width="170">
+                                    </a>
+                                </div>
+                                <div class="slider_navigator">
+                                    <a href="#">
+                                        <img src="img/slider_navigator.png" alt="slider" width="70">
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -359,7 +442,7 @@
                 <h2 class="section_title">Our Lorem Ipsum.</h2>
             </div>
             <!-- Swiper -->
-            <div class="swiper mySwiper">
+            <div class="swiper mySwiper common">
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
@@ -470,11 +553,16 @@
                     <a href="#" class="btn btn-primary">prev</a>
                 </div>
             </div>
+            <div class="custom_navigator d-flex justify-content-end d-none d-lg-flex">
+                <a href="">
+                    <img src="img/slider_navigator.png" alt="img" width="80">
+                </a>
+            </div>
         </div>
     </div>
 
     <!-- section 6 -->
-    <div class="section_6 about_us section">
+    <div class="section_6 about_us section pb-lg-5 pb-4">
         <div class="container">
             <div class="text_content">
                 <span class="section_span">THE EASY WAY TO MOVE</span>
@@ -484,7 +572,226 @@
             </div>
             <!-- Swiper -->
             <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
+                <div class="swiper-wrapper pb-4">
+
+                    <div class="swiper-slide">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3 mt-5">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3 mt-4">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3 mt-5">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3 mt-4">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="row align-items-center">
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3 mt-5">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3">
+                                <div class="feedback mb-3 mt-4">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                                <div class="feedback mb-3">
+                                    <div class="rating">
+                                        <img src="img/star_rating.png" alt="rating" width="95">
+                                        <h2 class="rating_title">As good as</h2>
+                                        <p class="rating_text">“Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Lorem ipsum dolor sit amet!.”</p>
+                                        <span class="name text_red d-block">Amanda Roy</span>
+                                        <span class="time">44 hours ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
                     <div class="swiper-slide">
                         <div class="row align-items-center">
@@ -560,13 +867,7 @@
                     </div>
 
                 </div>
-                <div class="swiper-pagination"></div>
-                <div class="swiper-button-next d-none">
-                    <a href="#" class="btn btn-primary">next</a>
-                </div>
-                <div class="swiper-button-prev d-none">
-                    <a href="#" class="btn btn-primary">prev</a>
-                </div>
+                <div class="swiper-pagination mt-5"></div>
             </div>
         </div>
     </div>
@@ -606,15 +907,49 @@
                 </div>
                 <div class="col-lg-3 col-md-2 mb-2">
                     <div class="box">
-                        <!-- Explore
-                        About Us
-                        Get Quotes
-                        Advice Centre
-                        Contact Us -->
-                        <h3 class="link_title">Explore</h3>
-                        <a href="#" class="footer_link">About Us</a>
-                        <a href="#" class="footer_link">Get Quotes</a>
-                        <a href="" class="link">Advice Centre</a>
+                        <h3 class="link_title fw-bold">Explore</h3>
+                        <a href="#" class="footer_link d-block">About Us</a>
+                        <a href="#" class="footer_link d-block">Get Quotes</a>
+                        <a href="" class="footer_link d-block">Advice Centre</a>
+                        <a href="" class="footer_link d-block">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="box">
+                        <h3 class="link_title fw-bold">Services</h3>
+                        <a href="#" class="footer_link d-block">Haulage</a>
+                        <a href="#" class="footer_link d-block">Courier Services</a>
+                        <a href="" class="footer_link d-block">Removals Man And Van</a>
+                        <a href="" class="footer_link d-block">Large Item Delivery </a>
+                        <a href="" class="footer_link d-block">Pet Transport </a>
+                        <a href="" class="footer_link d-block">International Shipping </a>
+                        <a href="" class="footer_link d-block">European Transport </a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-2 mb-2">
+                    <div class="box">
+                        <h3 class="link_title fw-bold">Man</h3>
+                        <a href="#" class="footer_link d-block">My Dashboard</a>
+                        <a href="#" class="footer_link d-block">Drive with Company</a>
+                        <a href="" class="footer_link d-block">Storage</a>
+                        <a href="" class="footer_link d-block">Our Transport Partners</a>
+                        <a href="" class="footer_link d-block">Blog</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_bottom mt-3 ">
+                <div class="row align-items-center">
+                    <div class="col-lg-4">
+                        <img src="img/trustpilot.png" alt="img">
+                    </div>
+                    <div class="col-lg-4">
+                        <p class="m-0 mt-3 mt-lg-0">© 2020 Company. All Right Reserved</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="d-flex justify-content-between mt-3 mt-lg-0">
+                            <a href="#">Terms & conditions</a>
+                            <a href="#">Privacy policy</a>
+                        </div>
                     </div>
                 </div>
             </div>

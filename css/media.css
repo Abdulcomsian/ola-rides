@@ -1,0 +1,16 @@
+@media (max-width: 720px) {
+    .section_6 {
+        background-size: contain;
+    }
+
+    .section_5 .features {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .section_4 .counter {
+        margin-bottom: 40px;
+    }
+}
