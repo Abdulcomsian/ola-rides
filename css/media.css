@@ -13,4 +13,20 @@
     .section_4 .counter {
         margin-bottom: 40px;
     }
+
+    .header_section .hero_title br {
+        display: none;
+    }
+
+    .header_section .hero_title {
+        font-size: 42px;
+    }
+
+    .header_section .hero_p {
+        font-size: 22px;
+    }
+
+    .section .section_title {
+        font-size: 32px;
+    }
 }
